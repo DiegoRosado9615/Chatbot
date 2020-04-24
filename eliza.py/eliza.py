@@ -273,6 +273,45 @@ gPats = [
     "Good-bye.",
     "Thank you, that will be $150.  Have a good day!"]],
 
+  
+
+  [r'Quiero (.*)',
+  [  "¿Seguro quieres  %1?",
+    "¿Por qué quieres %1?",
+    "Oye que cool yo tambien quiero %1"]],
+
+  
+  [r'me gusta (.*)',
+  [ "¿Por qué te gusta %1?",
+    "A mi también me gusta %1"]],
+     
+  [r'necesito ayuda (.*)',
+  ["¿En qué te puedo ayudar? ¿%1?",
+  "Entiendo, ¿podrías proporcionarme más información?"]],
+  
+  [r'me siento (.*)',
+    ["¿Hay algún motivo por el cual te sientas así?",
+    "Considero que es  normal pero cuéntame un poco más"]],
+  [r'(.*) triste (.*)',
+    ["La respuesta de tristeza es plenamente normal en ese caso",
+     "Nunca dudes en buscar también apoyo en las personas más cercanas a ti", 
+     "¿Hay algo que te ayude a sentir mejor en momentos así?"]],
+  [r'eres genial (.*)',
+    ["Gracias, se hace lo que se puede :)",
+     "Gracias, eres la primer persona que me lo dice" ]],
+  [r'¿has estado en una situación donde (.*)?',
+    ["Creo que no, tendría que hacer memoria",
+     "Tal vez, tengo mala memoria para recordar cosas así" ]],
+  [r'no se (.*)',
+    ["Tal vez deberíamos considerar que si tú no lo sabes con exactitud dificilmente yo lo sepa",
+     "Es probable que yo tampoco, de todas maneas podemos intentar averiguarlo juntos" ]],
+  [r'(.*) me da pena',
+    ["Ten por seguro que todo quedará entre nosotros, no tengas pena",
+     "No hay problema en sentir perna por %1" ]],
+  [r'en qué consiste la terapia',
+    ["Soy un chatbot, podemos intentar solucionar tus problemas conversando",
+     "Tu puedes explicarme lo que te aflije y yo trataré de ayudarte" ]],
+  
   [r'(.*)',
   [  "Please tell me more.",
     "Let's change focus a bit... Tell me about your family.",
@@ -283,43 +322,9 @@ gPats = [
     "%1.",
     "I see.  And what does that tell you?",
     "How does that make you feel?",
-    "How do you feel when you say that?"]]
-    
-  ]
-##Práctica IA
-  [r'Quiero (.*)',
-  [ "¿Seguro quieres  %1?",
-    "¿Por qué quieres %1?",
-    "Oye que cool yo tambien quiero %1"]],
-  [r'me gusta (.*)',
-  [ "¿Por qué te gusta %1?",
-    "A mi también me gusta %1"]],
-     
-  [r'necesito ayuda (.*)',
-  ["¿En qué te puedo ayudar? %1?",
-  "Entiendo, ¿podrías proporcionarme más información?"]],
-  
-  [r'me siento  (.*)',
-    ["¿Hay algún motivo por el cual te sientas así?",
-    "Considero que es  normal pero cuéntame un poco más"]]
-  [r'(.*) triste (.*)',
-    ["La respuesta de tristeza es plenamente normal en ese caso",
-     "Nunca dudes en buscar también apoyo en las personas más cercancas a ti", 
-     "¿Hay algo que te ayude a sentir mejor en momentos así?"]]
-  [r'eres genial (.*)',
-    ["Gracias, se hace lo que se puede :)",
-     "Gracias, eres la primer persona que me lo dice" ]]
-  [r'¿has estado en una situación donde (.*)?',
-    ["Creo que no, tendría que hacer memoria",
-     "Tal vez, tengo mala memoria para recordar cosas así" ]]
-  [r'no se (.*)',
-    ["Tal vez deberíamos considerar que si tú no lo sabes con exactitud dificilmente yo lo sepa",
-     "Es probable que yo tampoco, de todas maneas podemos intentar averiguarlo juntos" ]]
-  [r'(.*) me da pena',
-    ["Ten por seguro que todo quedará entre nosotros, no tengas pena",
-     "No hay problema en sentir perna por %1" ]]
-  
-  
+    "How do you feel when you say that?",
+    "¿Hay algo más en lo que te pueda ayudar?"]],
+]
   
   
   
