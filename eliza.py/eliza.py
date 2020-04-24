@@ -309,9 +309,15 @@ gPats = [
   [r'eres genial (.*)',
     ["Gracias, se hace lo que se puede :)",
      "Gracias, eres la primer persona que me lo dice" ]]
-  [r'eres genial (.*)',
-    ["Gracias, se hace lo que se puede :)",
-     "Gracias, eres la primer persona que me lo dice" ]]
+  [r'¿has estado en una situación donde (.*)?',
+    ["Creo que no, tendría que hacer memoria",
+     "Tal vez, tengo mala memoria para recordar cosas así" ]]
+  [r'no se (.*)',
+    ["Tal vez deberíamos considerar que si tú no lo sabes con exactitud dificilmente yo lo sepa",
+     "Es probable que yo tampoco, de todas maneas podemos intentar averiguarlo juntos" ]]
+  [r'(.*) me da pena',
+    ["Ten por seguro que todo quedará entre nosotros, no tengas pena",
+     "No hay problema en sentir perna por %1" ]]
   
   
   
