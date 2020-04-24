@@ -13,13 +13,13 @@ template([w(i),s(X),w(you)], [s([why,do,you]),s(X),w(me),w('?')]).
 
 %%Suguerencias de diego
 %template([s([why,am,i]),s(X)], [s([you,are,cool,for,me])]).
-template([s([mi,nombre,es]),s(X)], [s([hola]),s(X)],w(mi,nombre,es,eliza)).
+template([s([mi,nombre,es]),s(X)], [s([mi,nombre,es,eliza,mucho,gusto]),s(X)]).
 template([s([yo,quiero,comprar,un]),s(X)], [s(['¿',seguro,quieres,un]),s(X),w('?')]).
 template([s([yo,quiero,viajar,a]),s(X)], [s(['¿',seguro,quieres,ir,a]),s(X),w('?')]).
 template([s([yo,quiero,comer,una]),s(X)], [s(['¿',qué,tan,sano,es,comer,una]),s(X),w('?')]).
 template([s([me,siento]),s(X)], [s(['¿',por,qué,te,sientes]),s(X),w('?')]).
-template([s([me,gusta,bailar]),s(X)], [s(['¿'en serio,'?',a ,mí,me,encanta,bailar]),s(X)]).
-template([s([te,gustan,los]),s(X)], [s(lo,siento,no,me,gustan]),s(X)]).
+template([s([me,gusta,bailar]),s(X)], [s(['¿',en,serio,'?',a,mí,me,encanta,bailar]),s(X)]).
+template([s([te,gustan,los]),s(X)], [s([lo,siento,no,me,gustan]),s(X)]).
 template([s([has,visto]),s(X)], [s([sí,me,encanta,ver]),s(X)]).
 template([s([sabes,cocinar]),s(X)], [s([soy,una,máquina,no,puedo,cocinar]),s(X)]).
 template([s([te,has,enfermado,de]),s(X)], [s([soy,una,máquina,y,no,puedo,enfermarme,de]),s(X)]).
