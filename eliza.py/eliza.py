@@ -85,20 +85,7 @@ gPats = [
   [  "Why do you need %1?",
     "Would it really help you to get %1?",
     "Are you sure you need %1?"]],
-    ##Empiezan mi suguerencia XD
-  [r'Quiero (.*)',
-  [ "seguro quieres  %1?",
-    "por que lo quieres %1?",
-    "oye que cool yo tambien quiero %1"]],
-  [r'me gusta (.*)',
-  [ "seguro quieres  %1?",
-    "por que lo quieres %1?",
-    "oye que cool yo tambien quiero %1"]],
-    [r'quiero ir (.*)',
-  [ "seguro quieres ir a  %1?",
-    "por que quieres ir %1?",
-    "oye que cool yo tambien quiero  ir %1"]],
-    ##Termina mi sugerencia
+  
   [r'Why don\'?t you ([^\?]*)\??',
   [  "Do you really think I don't %1?",
     "Perhaps eventually I will %1.",
@@ -299,7 +286,20 @@ gPats = [
     "How do you feel when you say that?"]]
     
   ]
-  
+##Práctica IA
+  [r'Quiero (.*)',
+  [ "seguro quieres  %1?",
+    "por que lo quieres %1?",
+    "oye que cool yo tambien quiero %1"]],
+  [r'me gusta (.*)',
+  [ "¿seguro quieres  %1?",
+    "¿Por qué te gusta %1?",
+    "Oye qué cool yo tambien quiero %1"]],
+    [r'quiero ir (.*)',
+    ["¿Seguro quieres ir a  %1?",
+    "¿Por qué quieres ir %1?",
+    "Oye que cool yo tambien quiero  ir %1"]],
+    ##Terminan regex
 #----------------------------------------------------------------------
 #  command_interface
 #----------------------------------------------------------------------
