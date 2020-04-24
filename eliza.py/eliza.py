@@ -305,7 +305,7 @@ gPats = [
   [r'(.*) triste (.*)',
     ["La respuesta de tristeza es plenamente normal en ese caso",
      "Nunca dudes en buscar también apoyo en las personas más cercancas a ti", 
-     "¿Hay algo que te ayude a sentir mejor en momentos así?]]
+     "¿Hay algo que te ayude a sentir mejor en momentos así?"]]
   [r'eres genial (.*)',
     ["Gracias, se hace lo que se puede :)",
      "Gracias, eres la primer persona que me lo dice" ]]
