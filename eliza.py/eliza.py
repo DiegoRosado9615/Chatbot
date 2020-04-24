@@ -299,6 +299,11 @@ gPats = [
     ["¿seguro quieres ir a  %1?",
     "¿por qué quieres ir %1?",
     "oye que cool yo tambien quiero  ir %1"]],
+    [r'should I (.*)',
+    ["yes, you should  %1",
+     "You should  if it makes you feel better",
+     "%1"
+    ]],
     ##Terminan regex
 #----------------------------------------------------------------------
 #  command_interface
