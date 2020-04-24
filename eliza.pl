@@ -23,7 +23,7 @@ template([s([te,gustan,los]),s(X)], [s([lo,siento,no,me,gustan]),s(X)]).
 template([s([has,visto]),s(X)], [s([sí,me,encanta,ver]),s(X)]).
 template([s([sabes,cocinar]),s(X)], [s([soy,una,máquina,no,puedo,cocinar]),s(X)]).
 template([s([te,has,enfermado,de]),s(X)], [s([soy,una,máquina,y,no,puedo,enfermarme,de]),s(X)]).
-template([s([mi,serie,favorita,es]),s(X)], [s(['¡',mi,serie,favorita,también,es]),s(X)],w('!')).
+template([s([mi,serie,favorita,es]),s(X)], [s(['¡',mi,serie,favorita,también,es]),s(X),w('!')]).
 
 
 %%Mis suguerencias
