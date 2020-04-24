@@ -288,18 +288,36 @@ gPats = [
   ]
 ##Práctica IA
   [r'Quiero (.*)',
-  [ "seguro quieres  %1?",
-    "por que lo quieres %1?",
-    "oye que cool yo tambien quiero %1"]],
+  [ "¿Seguro quieres  %1?",
+    "¿Por qué quieres %1?",
+    "Oye que cool yo tambien quiero %1"]],
   [r'me gusta (.*)',
-  [ "¿seguro quieres  %1?",
-    "¿Por qué te gusta %1?",
-    "Oye qué cool yo tambien quiero %1"]],
-    [r'quiero ir (.*)',
-    ["¿Seguro quieres ir a  %1?",
-    "¿Por qué quieres ir %1?",
-    "Oye que cool yo tambien quiero  ir %1"]],
-    ##Terminan regex
+  [ "¿Por qué te gusta %1?",
+    "A mi también me gusta %1"]],
+     
+  [r'necesito ayuda (.*)',
+  ["¿En qué te puedo ayudar? %1?",
+  "Entiendo, ¿podrías proporcionarme más información?"]],
+  
+  [r'me siento  (.*)',
+    ["¿Hay algún motivo por el cual te sientas así?",
+    "Considero que es  normal pero cuéntame un poco más"]]
+  [r'(.*) triste (.*)',
+    ["La respuesta de tristeza es plenamente normal en ese caso",
+     "Nunca dudes en buscar también apoyo en las personas más cercancas a ti", 
+     "¿Hay algo que te ayude a sentir mejor en momentos así?]]
+  [r'eres genial (.*)',
+    ["Gracias, se hace lo que se puede :)",
+     "Gracias, eres la primer persona que me lo dice" ]]
+  [r'eres genial (.*)',
+    ["Gracias, se hace lo que se puede :)",
+     "Gracias, eres la primer persona que me lo dice" ]]
+  
+  
+  
+  
+  
+  ##Terminan regex
 #----------------------------------------------------------------------
 #  command_interface
 #----------------------------------------------------------------------
